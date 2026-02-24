@@ -1,6 +1,6 @@
-import { Hero } from "@/components/marketing/hero";
-import { Features } from "@/components/marketing/features";
-import { CtaBanner } from "@/components/marketing/cta-banner";
+import { Hero } from "@/components/layout/marketing/hero";
+import { Features } from "@/components/layout/marketing/features";
+import { CtaBanner } from "@/components/layout/marketing/cta-banner";
 export default function HomePage() {
   return (
     <>

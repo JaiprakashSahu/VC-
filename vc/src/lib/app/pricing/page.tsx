@@ -1,9 +1,11 @@
-import { PricingTable } from "@/components/marketing/pricing-table";
+import { Hero } from "@/components/marketing/hero";
+import { Features } from "@/components/marketing/features";
 import { CtaBanner } from "@/components/marketing/cta-banner";
-export default function PricingPage() {
+export default function HomePage() {
   return (
     <>
-      <PricingTable />
+      <Hero />
+      <Features />
       <CtaBanner />
     </>
   );

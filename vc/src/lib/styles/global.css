@@ -1,9 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
 :root {
   color-scheme: dark;
 }
+
 body {
-  @apply bg-slate-950 text-slate-50;
+  background-color: rgb(2 6 23);
+  color: rgb(248 250 252);
 }

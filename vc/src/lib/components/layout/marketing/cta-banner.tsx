@@ -1,7 +1,7 @@
 import Link from "next/link";
 export function CtaBanner() {
   return (
-    <section className="bg-gradient-to-r from-emerald-500/20 via-emerald-500/10 to-sky-500/10 border-y border-emerald-500/30">
+    <section className="bg-linear-to-r from-emerald-500/20 via-emerald-500/10 to-sky-500/10 border-2 border-emerald-500/30">
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-4 px-4 py-10 md:flex-row md:items-center">
         <div>
           <h2 className="text-xl font-semibold text-slate-50">

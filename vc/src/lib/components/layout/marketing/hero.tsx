@@ -1,7 +1,7 @@
 import Link from "next/link";
 export function Hero() {
   return (
-    <section className="border-b border-slate-800/60 bg-gradient-to-b from-slate-950 via-slate-950 to-slate-950/40">
+    <section className="border-b border-slate-800/60 bg-linear-to-b from-slate-950 via-slate-950 to-slate-950/40">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 pb-16 pt-20 md:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)] md:pb-24 md:pt-24">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-400">
